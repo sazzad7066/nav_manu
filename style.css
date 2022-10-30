@@ -1,0 +1,53 @@
+
+#nav_manu{
+background-color: black;
+width: 600px;
+height: 80px;
+margin: 0 auto;
+}
+#nav_manu ul{
+margin: 0;
+padding: 0;
+}
+#nav_manu ul li{
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+}
+#nav_manu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+#nav_manu ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#nav_manu2{
+
+}
+#nav_manu2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+#nav_manu2 ul li{
+    display: block;
+    width: 60px;
+ background-color: #dddd;
+}
+#nav_manu2 ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    color: #000;
+}
+/* Change the link color on hover */
+#nav_manu2 ul li a:hover{
+    background-color: #555;
+    color: white;
+}
